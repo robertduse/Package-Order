@@ -13,7 +13,6 @@ public class PackageController {
 
     @PostMapping()
     public ResponseEntity<Product> processPackages(@RequestBody Product product) {
-
         return ResponseEntity.ok(product);
     }
 }
