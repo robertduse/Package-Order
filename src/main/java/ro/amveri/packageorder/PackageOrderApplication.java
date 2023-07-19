@@ -8,6 +8,7 @@ public class PackageOrderApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PackageOrderApplication.class, args);
+		System.out.println("test");
 	}
 
 }
