@@ -14,8 +14,9 @@ public class Parcel {
     private final int boxNumber;
     private final String productCode;
     private final int colorCode;
-    private final List<String> size;
-    private final List<Integer> numberOfPcs;
+    private final List<ProductDetails> details;
 
 
 }
+
+
