@@ -8,7 +8,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ProductDetails {
-
     private final String size;
-    private final int numberOfPcs;
+    private final int numberOfPieces;
 }
